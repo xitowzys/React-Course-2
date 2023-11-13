@@ -2,9 +2,9 @@ import { MouseEvent, useState } from 'react';
 import Button from './components/Button/Button';
 import Input from './components/Input/Input';
 import { Link, Route, RouterProvider, Routes, createBrowserRouter } from 'react-router-dom';
-import { Menu } from './components/pages/Menu/Menu';
-import { Cart } from './components/pages/Cart/Cart';
-import { Error } from './components/pages/Error/Error';
+import { Menu } from './pages/Menu/Menu';
+import { Cart } from './pages/Cart/Cart';
+import { Error } from './pages/Error/Error';
 
 
 function App() {

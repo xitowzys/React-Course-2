@@ -1,6 +1,6 @@
 import { Link, NavLink, Outlet, useLocation } from 'react-router-dom';
 import styles from './Layout.module.css';
-import Button from '../../Button/Button';
+import Button from '../../components/Button/Button';
 import { useEffect } from 'react';
 import cn from 'classNames';
 
